@@ -1,0 +1,16 @@
+# Robots.txt for Ravishankar Dakoju Website
+# Allow all search engines to crawl and index the site
+
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# Specific rules for major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Sitemap location
+Sitemap: https://ravishankardakoju.com/sitemap.xml

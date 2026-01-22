@@ -10,9 +10,20 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-serif" });
 
 export const metadata: Metadata = {
-    title: `${siteConfig.person.displayName} - ${siteConfig.person.roles[0]}`,
-    description: siteConfig.person.shortBio,
-    keywords: [siteConfig.person.fullName, ...siteConfig.person.seoAlternateNames, "Rotary", "Philanthropy", "Bengaluru"],
+    title: `${siteConfig.person.displayName} - ${siteConfig.person.roles[0]} | Bengaluru`,
+    description: `${siteConfig.person.displayName} is a senior Rotarian and philanthropist based in Bengaluru, India. Learn about his impact, initiatives, and contributions to society.`,
+    keywords: [
+        siteConfig.person.fullName, 
+        ...siteConfig.person.seoAlternateNames, 
+        "Ravishankar",
+        "Dakoju",
+        "Rotary",
+        "Rotarian",
+        "Philanthropy",
+        "Bengaluru",
+        "India",
+        "Social Impact"
+    ],
     icons: {
         icon: [
             { url: '/favicon.svg', type: 'image/svg+xml' },
@@ -22,9 +33,13 @@ export const metadata: Metadata = {
     },
     openGraph: {
         type: "profile",
-        title: siteConfig.person.displayName,
-        description: siteConfig.person.shortBio,
+        title: `${siteConfig.person.displayName} - ${siteConfig.person.roles[0]}`,
+        description: `${siteConfig.person.displayName} is a senior Rotarian and philanthropist. Discover his impact and contributions.`,
         siteName: siteConfig.person.displayName,
+        url: "https://ravishankardakoju.com",
+    },
+    alternates: {
+        canonical: "https://ravishankardakoju.com",
     },
 };
 
