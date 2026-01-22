@@ -1,0 +1,16 @@
+{
+  "name": "Ravishankar Dakoju",
+  "short_name": "R. Dakoju",
+  "description": "Senior Rotarian, Philanthropist, and Community Builder",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#00246c",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ]
+}
