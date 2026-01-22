@@ -204,5 +204,7 @@ export const siteConfig: SiteConfig = {
     { src: "/gallery/award-ceremony.jpeg", alt: "Ravishankar Dakoju at Award Ceremony" },
     { src: "/gallery/family-arch-klumph.jpeg", alt: "With Family at Arch Klumph Society Event" },
     { src: "/gallery/family-celebration.jpeg", alt: "Ravishankar Dakoju with Family" },
+    { src: "/gallery/event-1.jpeg", alt: "Rotary Event Image 1" },
+    { src: "/gallery/event-2.jpeg", alt: "Ravishankar Dakoju with his entire family" },
   ],
 };
