@@ -67,7 +67,7 @@ export function Hero() {
                     <div className="relative aspect-[4/5] md:aspect-square bg-slate-200 rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
                         {/* Portrait Image */}
                         <img
-                            src="/portrait.jpeg"
+                            src="/gallery/portrait-professional-light.jpeg"
                             alt="Ravishankar Dakoju - Senior Rotarian and Philanthropist"
                             className="w-full h-full object-cover"
                         />
