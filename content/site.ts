@@ -195,7 +195,7 @@ export const siteConfig: SiteConfig = {
     instagram: "https://www.instagram.com/ravishankardakojuofficial",
     rotaryLinkedInPost: "https://www.linkedin.com/posts/rotary-international_longtime-rotary-member-ravishankar-dakoju-activity-7419860138007781376-ulYs",
     rotaryStoryPledge50m: "https://www.rotary.org/en/indian-developer-donates-us-50-million-rotary-foundation",
-    contactEmail: "contact@ravishankardakoju.com",
+    contactEmail: "ravishankardakojupr@gmail.com",
   },
   gallery: [
     { src: "/gallery/portrait-professional-dark.jpeg", alt: "Ravishankar Dakoju - Professional Portrait" },
