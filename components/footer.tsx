@@ -10,8 +10,7 @@
 
 "use client";
 
-import { Mail, Linkedin, Instagram, ArrowUp, CheckCircle, AlertCircle } from "lucide-react";
-import Link from "next/link";
+import { Mail, Linkedin, Instagram, CheckCircle, AlertCircle } from "lucide-react";
 import { siteConfig } from "@/content/site";
 import { useState } from "react";
 
@@ -252,21 +251,21 @@ export function Footer() {
     const currentYear = new Date().getFullYear();
 
     return (
-        <footer className="bg-slate-950 text-slate-400 py-12 border-t border-slate-800">
+        <footer className="bg-slate-950 text-slate-400 py-8 border-t border-slate-800">
             <div className="container mx-auto px-4 md:px-6">
-                <div className="flex flex-col md:flex-row justify-between items-center gap-6">
+                <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8">
                     {/* Branding Section */}
                     <div className="flex items-center gap-2">
                         <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center text-white font-serif font-bold text-xs ring-2 ring-slate-800">
                             RD
                         </div>
-                        <span className="font-serif font-semibold text-slate-200">{siteConfig.person.displayName}</span>
+                        <span className="font-serif font-semibold text-slate-200 text-sm">{siteConfig.person.displayName}</span>
                     </div>
 
-                    {/* Copyright and Developer Credit */}
-                    <div className="text-xs md:text-sm text-center">
+                    {/* Copyright and Developer Credit - Centered */}
+                    <div className="text-xs text-center">
                         <p>&copy; {currentYear} Ravishankar Dakoju. All rights reserved.</p>
-                        <p className="text-[10px] md:text-xs mt-1 opacity-40">
+                        <p className="text-[10px] mt-1 opacity-40">
                             Developed by{" "}
                             <a 
                                 href={DEVELOPER_WEBSITE} 
@@ -278,15 +277,6 @@ export function Footer() {
                             </a>
                         </p>
                     </div>
-
-                    {/* Back to Top Button */}
-                    <Link 
-                        href="#" 
-                        className="p-3 bg-white/5 rounded-full hover:bg-white/10 transition-colors" 
-                        aria-label="Back to top"
-                    >
-                        <ArrowUp size={20} />
-                    </Link>
                 </div>
             </div>
         </footer>
