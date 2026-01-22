@@ -65,9 +65,9 @@ export function Hero() {
                     className="relative"
                 >
                     <div className="relative aspect-[4/5] md:aspect-square bg-slate-200 rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
-                        {/* Portrait Image */}
+                        {/* Rotary Event Respect Photo */}
                         <img
-                            src="/gallery/portrait-professional-light.jpeg"
+                            src="/gallery/rotary-event-respect.jpeg"
                             alt="Ravishankar Dakoju - Senior Rotarian and Philanthropist"
                             className="w-full h-full object-cover"
                         />
