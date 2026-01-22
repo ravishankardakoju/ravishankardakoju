@@ -39,10 +39,11 @@ export function Media() {
                         <div className="relative aspect-video bg-slate-100 rounded-2xl overflow-hidden shadow-lg border border-slate-100">
                             <iframe
                                 className="w-full h-full"
-                                src={`https://www.youtube.com/embed/4g--0zbz3RM?si=uTK5PsYJhZr2VxNt`}
+                                src="https://www.youtube.com/embed/4g--0zbz3RM?si=uTK5PsYJhZr2VxNt"
                                 title="YouTube video player"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 allowFullScreen
+                                referrerPolicy="strict-origin-when-cross-origin"
                             ></iframe>
                         </div>
                         <div>
