@@ -4,6 +4,7 @@ import Script from "next/script";
 import "./globals.css";
 import { siteConfig } from "@/content/site";
 import { ScrollToTop } from "@/components/scroll-to-top";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-serif" });
@@ -56,6 +57,7 @@ export default function RootLayout({
             <body className={`${inter.variable} ${playfair.variable} font-sans antialiased text-slate-800 bg-slate-50 relative`}>
                 {children}
                 <ScrollToTop />
+                <SpeedInsights />
                 <Script
                     id="json-ld"
                     type="application/ld+json"
