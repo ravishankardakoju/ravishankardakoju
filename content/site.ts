@@ -48,7 +48,7 @@ export const siteConfig: SiteConfig = {
     displayName: "Ravishankar Dakoju",
     seoAlternateNames: ["Ravishankar Dokuju"],
     location: "Bengaluru, India",
-    roles: ["Senior Rotarian", "Philanthropist", "Community Builder"],
+    roles: ["District Governor 2026-27 Rotary International District 3192", "Philanthropist", "Community Builder"],
     shortBio: "A life dedicated to service, from humble beginnings to one of the largest individual contributions in Rotary Foundation history.",
     longBio: `Ravishankar Dakoju's life is a testament to resilience and the transformative power of giving. Born into a family that faced significant hardship, he started working young—delivering milk at dawn before school—to support his mother, who raised seven children with unwavering dignity. 
 
