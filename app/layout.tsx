@@ -11,14 +11,15 @@ const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-serif"
 
 export const metadata: Metadata = {
     title: `${siteConfig.person.displayName} - ${siteConfig.person.roles[0]} | Bengaluru`,
-    description: `${siteConfig.person.displayName} is a senior Rotarian and philanthropist based in Bengaluru, India. Learn about his impact, initiatives, and contributions to society.`,
+    description: `${siteConfig.person.displayName} is the District Governor 2026-27 for Rotary International District 3192 and a philanthropist based in Bengaluru, India. Learn about his impact, initiatives, and contributions to society.`,
     keywords: [
-        siteConfig.person.fullName, 
-        ...siteConfig.person.seoAlternateNames, 
+        siteConfig.person.fullName,
+        ...siteConfig.person.seoAlternateNames,
         "Ravishankar",
         "Dakoju",
         "Rotary",
-        "Rotarian",
+        "District Governor",
+        "Rotary District 3192",
         "Philanthropy",
         "Bengaluru",
         "India",
@@ -34,7 +35,7 @@ export const metadata: Metadata = {
     openGraph: {
         type: "profile",
         title: `${siteConfig.person.displayName} - ${siteConfig.person.roles[0]}`,
-        description: `${siteConfig.person.displayName} is a senior Rotarian and philanthropist. Discover his impact and contributions.`,
+        description: `${siteConfig.person.displayName} is the District Governor 2026-27 for Rotary International District 3192 and a philanthropist. Discover his impact and contributions.`,
         siteName: siteConfig.person.displayName,
         url: "https://ravishankardakoju.com",
     },
